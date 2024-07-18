@@ -1,0 +1,26 @@
+.flex{
+    display: flex;
+}
+
+
+.title{
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+
+.para{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 50%);
+}
+
+
+.button{
+    font-size: 1.125rem;
+    font-weight: 600px;
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    color: white;
+    border-style: none;
+    background-color: #E6533C;
+}
