@@ -152,3 +152,37 @@ body {
 
 /* Change Your Habits Portion ends */
 
+-----------------------------------------------------------------------------
+/* Run An Extra Mile Portion starts */
+
+.Run {
+    border: 2px solid red;
+    margin-top: 6.25rem;
+    /* margin-bottom: 6.5rem; */
+    height: 371px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(34, 34, 34, 100%);
+    border-radius: 18px;
+}
+
+.run-content {
+    /* border: 2px solid yellow; */
+    width: 70%;
+    margin: 41px 0px 40px 54px;
+}
+
+.run-content > p {
+    margin-top: 0.875rem;
+    margin-bottom: 2rem;
+}
+
+.run-image {
+    /* border: 2px solid red; */
+    width: 22.875rem;
+    height: 19.5rem;
+    border-radius: 18px;
+    margin-right: 2rem;
+}
+
+/* Run An Extra Mile Portion ends */
