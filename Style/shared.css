@@ -3,14 +3,28 @@
 }
 
 
+/* Ratio */
+.limit {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* BG COLOR */
+.bg-color-2 {
+    background-color: black;
+}
+
+
 .title{
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: 900;
+    color: white;
 }
 
 
 .para{
-    font-size: 1rem;
+    font-size: .875rem;
+    font-weight: 400;
     color: rgba(255, 255, 255, 50%);
 }
 
@@ -18,9 +32,12 @@
 .button{
     font-size: 1.125rem;
     font-weight: 600px;
+    width: 14rem;
     padding: 1rem 3rem;
     border-radius: 50px;
     color: white;
     border-style: none;
     background-color: #E6533C;
 }
+
+

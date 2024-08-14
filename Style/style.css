@@ -3,7 +3,7 @@
 
 body {
     font-family: "Inter", sans-serif;
-    max-width: 1440px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -17,22 +17,17 @@ body {
 }
 
 /* Nav Section Starts */
-.limit {
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 2.5rem;
-}
 
 .navbar {
     justify-content: space-between;
     align-items: center;
+    padding-top: 2.5rem;
 }
 
 .nav-title {
     font-size: 2.25rem;
     font-weight: 900px;
     color: #E6533C;
-    /* margin-bottom: 6rem; */
 }
 
 .nav-list {
@@ -40,7 +35,6 @@ body {
     list-style: none;
     align-items: center;
     justify-content: center;
-    /* margin-bottom: 2rem; */
 }
 
 .nav-list a {
@@ -62,7 +56,7 @@ body {
 }
 
 .banner-content {
-    margin-top: 96px;
+    margin-top: 6rem;
 }
 
 .banner-title {
@@ -113,3 +107,48 @@ body {
 }
 
 /* Banner Section Ends */
+
+
+
+/* Change Your Habits Portion starts */
+
+
+.habit {
+    padding-top: 6.25rem;
+}
+
+.habit-title {
+    text-align: center;
+    margin-bottom: 0.875rem;
+}
+
+.habit-para {
+    text-align: center;
+    margin-bottom: 3.625rem;
+}
+
+.round {
+    border-radius: 50%;
+    margin-bottom: 1.875rem;
+}
+
+.habit-images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.habit-portion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.habit-portion p {
+    text-align: center;
+    margin-top: 0.5rem;
+
+}
+
+/* Change Your Habits Portion ends */
+
